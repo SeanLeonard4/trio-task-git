@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   db:
-    image: trio-task-db
+    image: sleonard9704/trio-task-db
     build: ./db
     container_name: mysql
     environment:
@@ -10,7 +10,7 @@ services:
   flask-app:
     build: ./flask-app
     container_name: flask-app
-    image: trio-task-flask-app
+    image: sleonard9704/trio-task-flask-app
   nginx:
     image: nginx:latest
     ports:
