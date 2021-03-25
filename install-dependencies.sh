@@ -13,4 +13,4 @@ sudo curl -L "https://github.com/docker/compose/releases/download/${version}/doc
 sudo chmod +x /usr/local/bin/docker-compose
 
 #login
-echo $DOCKERHUB_PASSWORD | docker login --username Sleonard9704 --password-stdin
+echo $DOCKERHUB_PASSWORD | docker login --username sleonard9704 --password-stdin
