@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage("install dependencies"){
             steps{
-                sh "install-dependencies.sh"
+                sh "bash install-dependencies.sh"
             }
         }
         stage("Build"){
